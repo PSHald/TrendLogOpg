@@ -1,0 +1,81 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Shared\charts-chartjs.cshtml" />
+    <Content Remove="Views\Shared\components-accordions.cshtml" />
+    <Content Remove="Views\Shared\components-calendar.cshtml" />
+    <Content Remove="Views\Shared\components-carousel.cshtml" />
+    <Content Remove="Views\Shared\components-maps.cshtml" />
+    <Content Remove="Views\Shared\components-modals.cshtml" />
+    <Content Remove="Views\Shared\components-notifications.cshtml" />
+    <Content Remove="Views\Shared\components-pagination.cshtml" />
+    <Content Remove="Views\Shared\components-progress-bar.cshtml" />
+    <Content Remove="Views\Shared\components-scrollable-elements.cshtml" />
+    <Content Remove="Views\Shared\components-tabs.cshtml" />
+    <Content Remove="Views\Shared\components-tooltips-popovers.cshtml" />
+    <Content Remove="Views\Shared\dashboard-boxes.cshtml" />
+    <Content Remove="Views\Shared\elements-badges-labels.cshtml" />
+    <Content Remove="Views\Shared\elements-buttons-standard.cshtml" />
+    <Content Remove="Views\Shared\elements-cards.cshtml" />
+    <Content Remove="Views\Shared\elements-dropdowns.cshtml" />
+    <Content Remove="Views\Shared\elements-icons.cshtml" />
+    <Content Remove="Views\Shared\elements-list-group.cshtml" />
+    <Content Remove="Views\Shared\elements-navigation.cshtml" />
+    <Content Remove="Views\Shared\elements-utilities.cshtml" />
+    <Content Remove="Views\Shared\forms-controls.cshtml" />
+    <Content Remove="Views\Shared\forms-layouts.cshtml" />
+    <Content Remove="Views\Shared\forms-validation.cshtml" />
+    <Content Remove="Views\Shared\tables-regular.cshtml" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <Folder Include="wwwroot\img\" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <None Include="Views\Shared\charts-chartjs.cshtml" />
+    <None Include="Views\Shared\components-accordions.cshtml" />
+    <None Include="Views\Shared\components-calendar.cshtml" />
+    <None Include="Views\Shared\components-carousel.cshtml" />
+    <None Include="Views\Shared\components-maps.cshtml" />
+    <None Include="Views\Shared\components-modals.cshtml" />
+    <None Include="Views\Shared\components-notifications.cshtml" />
+    <None Include="Views\Shared\components-pagination.cshtml" />
+    <None Include="Views\Shared\components-progress-bar.cshtml" />
+    <None Include="Views\Shared\components-scrollable-elements.cshtml" />
+    <None Include="Views\Shared\components-tabs.cshtml" />
+    <None Include="Views\Shared\components-tooltips-popovers.cshtml" />
+    <None Include="Views\Shared\dashboard-boxes.cshtml" />
+    <None Include="Views\Shared\elements-badges-labels.cshtml" />
+    <None Include="Views\Shared\elements-buttons-standard.cshtml" />
+    <None Include="Views\Shared\elements-cards.cshtml" />
+    <None Include="Views\Shared\elements-dropdowns.cshtml" />
+    <None Include="Views\Shared\elements-icons.cshtml" />
+    <None Include="Views\Shared\elements-list-group.cshtml" />
+    <None Include="Views\Shared\elements-navigation.cshtml" />
+    <None Include="Views\Shared\elements-utilities.cshtml" />
+    <None Include="Views\Shared\forms-controls.cshtml" />
+    <None Include="Views\Shared\forms-layouts.cshtml" />
+    <None Include="Views\Shared\forms-validation.cshtml" />
+    <None Include="Views\Shared\tables-regular.cshtml" />
+    <None Include="wwwroot\css\main.css" />
+  </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.0.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="3.0.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.0.0" />
+  </ItemGroup>
+
+</Project>
