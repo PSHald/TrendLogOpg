@@ -20,8 +20,13 @@ namespace TrendLogOpg.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            var dataModel = new DataViewModel();
+            dataModel.Column = new ColumnChart("100", "100", "100", 100, 100, 100, 100);
+            dataModel.Line = new LineChart("25", "50", "75", "100");
+            
+            return View(dataModel);
         }
+       
 
         public IActionResult Privacy()
         {
